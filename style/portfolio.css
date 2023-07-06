@@ -128,8 +128,32 @@
   display: flex;
 }
 
+.header_me {
+  color: var(--primarly-color);
+  padding: 50px 100px;
+  margin: 50px;
+}
+
+.contact_me {
+  font-family: var(--font-family);
+  color: var(--secondary-color);
+}
+
+.par_contact {
+  color: var(--primarly-color);
+  text-decoration: none;
+}
+
+.par_contact:hover {
+  color: var(--primarly-color);
+}
+
 @media (max-width: 900px) {
   .about_me_description {
+    padding: 0;
+    text-align: center;
+  }
+  .img_me {
     padding: 0;
     text-align: center;
   }
