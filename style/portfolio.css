@@ -69,3 +69,25 @@
   font-family: var(--font-family);
   color: var(--primarly-color);
 }
+
+.about_me_description {
+  padding: 110 60px;
+  font-size: 20px;
+  font-family: var(--font-family);
+  font-weight: 200;
+  text-align: center;
+  color: #224b0c;
+}
+
+.name_2 {
+  display: flex;
+  width: 460px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: var(--primarly-color);
+  font-size: 50px;
+  font-family: var(--font-family);
+  font-weight: 700;
+  background-color: var(--secondary-color);
+  text-align: center;
+}
