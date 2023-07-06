@@ -97,3 +97,15 @@
   font-family: var(--font-family);
   color: var(--third-color);
 }
+
+.links_Social {
+  font-size: medium;
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  .about_me_description {
+    padding: 0;
+    text-align: center;
+  }
+}
