@@ -91,3 +91,9 @@
   background-color: var(--secondary-color);
   text-align: center;
 }
+
+.title_books {
+  background-color: var(--secondary-color);
+  font-family: var(--font-family);
+  color: var(--third-color);
+}
